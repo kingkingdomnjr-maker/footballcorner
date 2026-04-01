@@ -1,0 +1,46 @@
+<html>
+<head>
+
+    <title>register</title>
+    <link href="selection.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="homefootball.html">HOME</a></li>
+        </ul>
+    </nav>
+
+    <div class="body">
+        <div class="heading">
+    <h1>FOOTBALL REGISTRATION</h1>
+        </div>
+        <div class="invalid">
+    <p id="succesfull"></p>
+        </div>
+    <div class="form form2">
+    <label>Name</label>
+    <input type="text" id="name" placeholder="Enter your Username">
+    <p id="user" style="color: red;"></p>
+    <label>Mail id</label>
+    <input type="email" id="mail" placeholder=" Enter your mail">
+    <p id="gmail"  style="color: red; " ></p>
+    <label>Semester</label>
+    <input type="text" id="semester" placeholder="Semester">
+    <p id="semestererror"  style="color: red;"></p>
+    <label>Team</label>
+    <input type="text" id="team" placeholder="Team you're joining">
+    <p id="teamerror"  style="color: red;"></p>
+    <label>Mobile number</label>
+    <input type="tel" id="num" placeholder="phone number">
+    <p id="number" style="color: red;"></p>
+    </div>
+    <div class="result">
+    <button onclick="register()">REGISTER</button>
+    
+    </div>
+    </div>
+    <script src="selection.js"></script>
+
+</body>
+</html>
